@@ -1,0 +1,14 @@
+.drop-target {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    min-height: 150px;
+    box-sizing: border-box;
+    .drop-item {
+        margin: 5px;
+        pointer-events: bounding-box;
+    }
+    .button {
+        margin-left: 5px;
+    }
+}

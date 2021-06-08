@@ -1,0 +1,68 @@
+{
+  "name": "react-component-integration",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "ahooks": "^2.10.0",
+    "ali-react-table": "^2.4.0",
+    "antd": "^4.14.0",
+    "array-move": "^3.0.1",
+    "axios": "^0.21.1",
+    "braft-editor": "^2.3.9",
+    "echarts": "^5.0.2",
+    "echarts-for-react": "^3.0.1",
+    "immutability-helper": "^3.1.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-amap": "^1.2.8",
+    "react-app-polyfill": "^2.0.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dnd": "^14.0.2",
+    "react-dnd-html5-backend": "^14.0.0",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-sort": "^0.0.0",
+    "react-sortable-hoc": "^2.0.0",
+    "sass": "^1.32.8",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_ENV=development react-scripts start --max-old-space-size=8192",
+    "build": "cross-env REACT_APP_ENV=production react-scripts build",
+    "build:test": "cross-env REACT_APP_ENV=development react-scripts build",
+    "build:local": "cross-env REACT_APP_ENV=local react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie > 9"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie > 9"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1"
+  }
+}

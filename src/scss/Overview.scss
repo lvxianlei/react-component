@@ -1,0 +1,28 @@
+.base-table {
+    height: 100%;
+    .ant-btn {
+        font-size: 12px;
+        line-height: 22px;
+        height: 24px;
+        padding: 4px;
+    }
+}
+.art-table-wrapper {
+    .art-horizontal-scroll-container {
+        &::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border: 1px solid #eaeaea;
+            border-radius: 4px;
+            &:hover {
+                background: rgba(0, 0, 0, 0.2);
+            }
+        }
+        &::-webkit-scrollbar-track {
+            background: #eaeaea;
+        }
+    }
+}

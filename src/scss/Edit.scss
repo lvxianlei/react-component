@@ -1,0 +1,25 @@
+.edit-tabs {
+  width: 100%;
+  .ant-tabs-content-holder {
+    margin-top: 20px;
+    .edit-tab-pane {
+      width: 100%;
+      .form-row {
+        width: 100%;
+        .ant-form-item {
+          margin-right: 30px;
+          margin-bottom: 10px !important;
+        }
+      }
+    }
+  }
+}
+#design02 {
+  .ant-form-item {
+    margin-bottom: 0px !important;
+    margin-right: 16px;
+    .ant-form-item-control {
+      margin-bottom: 10px;
+    }
+  }
+}
